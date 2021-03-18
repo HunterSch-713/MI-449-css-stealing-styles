@@ -108,3 +108,11 @@ main {
   transition: ease-in-out .05s;
   color: yellow;
 }
+#ee:hover {
+  transition: ease-in-out .05s;
+  color: red;
+}
+#rr:hover {
+  transition: ease-in-out .05s;
+  color: green;
+}
