@@ -1,0 +1,110 @@
+* {
+  /* Google Font Styling on Search Page */
+  font-family: arial,sans-serif;
+}
+
+nav p {
+  text-align: right;
+}
+
+a {
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  margin-top: 10em;
+}
+
+.contain h1 {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.25em;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.search p input {
+  line-height: 1.15;
+  width: 30em;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #d4dada;
+  padding: 6px 10px;
+  font: 400 13.3333px Arial;
+  font-size: 100%;
+}
+
+.search p input:focus {
+  outline: none;
+  border-color: #07682c;
+  height: 30px;
+}
+
+.search-links {
+  text-align: center;
+}
+
+.search-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 7px 14px rgb(50 50 93 / 10%),
+  3px 6px rgb(0 0 0 / 8%);
+}
+
+.search-button {
+  transform: translateY(0px);
+  box-sizing: border-box;
+  color: #7795f8;
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%),
+  0 1px 3px rgb(0 0 0 / 8%);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-decoration: none;
+  transition: all .15s ease;
+  outline: none;
+}
+
+/* Added a Slight Transition to Make it Look Nicer */
+#N:hover {
+  transition: ease-in-out .05s;
+  color: green;
+}
+#e:hover {
+  transition: ease-in-out .05s;
+  color: blue;
+}
+#t:hover {
+  transition: ease-in-out .05s;
+  color: red;
+}
+#D:hover {
+  transition: ease-in-out .05s;
+  color: yellow;
+}
+#r:hover {
+  transition: ease-in-out .05s;
+  color: purple;
+}
+#i:hover {
+  transition: ease-in-out .05s;
+  color: green;
+}
+#v:hover {
+  transition: ease-in-out .05s;
+  color: yellow;
+}
