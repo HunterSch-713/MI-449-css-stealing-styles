@@ -53,12 +53,24 @@ main {
 
 .search-button:hover {
   transform: translateY(-1px);
-  box-shadow: 7px 14px rgb(50 50 93 / 10%),
-  3px 6px rgb(0 0 0 / 8%);
+  box-shadow: 0 7px 14px rgb(50 50 93 / 10%),
+  0 3px 6px rgb(0 0 0 / 8%);
+}
+
+.search-button:active {
+  background-color: #F6F9FC;
+  transform: translateY(1px);
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 80%);
 }
 
 .search-button {
-  transform: translateY(0px);
+  font-style: normal;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "pnum";
+  font-variant-numeric: proportional-nums;
+  display: inline-block;
   box-sizing: border-box;
   color: #7795f8;
   white-space: nowrap;
@@ -82,27 +94,27 @@ main {
 /* Added a Slight Transition to Make it Look Nicer */
 #N:hover {
   transition: ease-in-out .05s;
-  color: green;
+  color: #98C379;
 }
 #e:hover {
   transition: ease-in-out .05s;
-  color: blue;
+  color: #56B6C2;
 }
 #t:hover {
   transition: ease-in-out .05s;
-  color: red;
+  color: #C62D48;
 }
 #D:hover {
   transition: ease-in-out .05s;
-  color: yellow;
+  color: #C6AD00;
 }
 #r:hover {
   transition: ease-in-out .05s;
-  color: purple;
+  color: #B400B9;
 }
 #i:hover {
   transition: ease-in-out .05s;
-  color: green;
+  color: #98C379;
 }
 #v:hover {
   transition: ease-in-out .05s;
@@ -110,9 +122,9 @@ main {
 }
 #ee:hover {
   transition: ease-in-out .05s;
-  color: red;
+  color: #C62D48;
 }
 #rr:hover {
   transition: ease-in-out .05s;
-  color: green;
+  color: #98C379;
 }
